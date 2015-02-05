@@ -1,7 +1,6 @@
 include Enumerable
 
 class Image 
-
 	
 	def initialize(array)
 	 @array = array
@@ -12,7 +11,6 @@ class Image
 		puts row.join(', ')
 		end	
 	end	
-	
 end
 
 image = Image.new([
@@ -23,4 +21,3 @@ image = Image.new([
 ])
 
  image.output_image
-
